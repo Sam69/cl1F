@@ -1,0 +1,20 @@
+shubhangi@shubhangi-Vostro-3546:~$ cd 4257/CL1
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ javac Bsearch.java
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ java Bsearch
+Enter no.of elements: 
+6
+Enter array elements: 
+56 32 34 76 12 75
+Enter element to be searched for:
+34
+Element found at index 2 in sorted array.
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ java Bsearch
+Enter no.of elements: 
+5 
+Enter array elements: 
+12 45 87 56 23
+Enter element to be searched for:
+65
+Element not present
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ 
+

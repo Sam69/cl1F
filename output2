@@ -1,0 +1,29 @@
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ g++ quick.cpp -pthread
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ ./a.out
+
+Enter number of elements in array:  6
+
+Now enter Array ELements:  
+11 32 54 12 87 56
+Before sorting : 
+array[0] = 11
+array[1] = 32
+array[2] = 54
+array[3] = 12
+array[4] = 87
+array[5] = 56
+Thread number 139895471847232 executing on core 3found pivotElement 11
+Thread number 139895446120192 executing on core 2found pivotElement 32
+Thread number 139895437727488 executing on core 1found pivotElement 54
+Thread number 139895429334784 executing on core 2found pivotElement 87
+
+
+After sorting : 
+array[0] = 11
+array[1] = 12
+array[2] = 32
+array[3] = 54
+array[4] = 56
+array[5] = 87
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ 
+

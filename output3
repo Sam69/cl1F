@@ -1,0 +1,36 @@
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ lex lexanal.l
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ gcc -o lexanal lex.yy.c
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ ./lexanal
+
+Enter input file name: input.c
+Line No 	 LEXEME 	 Token
+1 		 # 		 PREPROCESSOR
+1 		 include 		 KEYWORD
+1 		 < 		 LESS THAN
+1 		 stdio.h 		 HEADER FILE
+1 		 > 		 GREATER THAN
+2 		 void 		 IDENTIFIER
+ 2 		 main 		 KEYWORD
+2 		 ( 		 OPEN
+2 		 ) 		 CLOSE
+3 		 { 		 START OF BLOCK
+	4 		 int 		 DATATYPE
+ 4 		 a 		 IDENTIFIER
+4 		 , 		 SEPARATOR
+4 		 b 		 IDENTIFIER
+4 		 ; 		 TERMINATOR
+	5 		 char 		 DATATYPE
+ 5 		 d 		 IDENTIFIER
+5 		 ; 		 TERMINATOR
+	6 		 a 		 IDENTIFIER
+ 6 		 = 		 ASSIGNMENT
+ 6 		 3 		 NUMBER
+6 		 ; 		 TERMINATOR
+	7 		 c 		 IDENTIFIER
+ 7 		 = 		 ASSIGNMENT
+ 7 		 a 		 IDENTIFIER
+7 		 + 		 OPERATOR
+7 		 d 		 IDENTIFIER
+7 		 ; 		 TERMINATOR
+8 		 } 		 END OF BLOCK
+shubhangi@shubhangi-Vostro-3546:~/4257/CL1$ 
